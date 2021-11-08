@@ -1,6 +1,9 @@
-% Estimate min singular value of a non-singular 2 x 2 block matrix [A B; C D].
-% The exact, as well as the three estimates (est1, est2, est3) of the min
-% singular value, are calculated.
+% Estimate min singular value of a non-singular 2 x 2 block matrix G=[A B; C D].
+% The following are calculated:
+% 1. The exact minimum singular value of G.
+% 2. The four "row-formulation" estimates (est1,est2,est3,est4)
+% 3. The four "column-formulation" estimates (est1_t,est2_t,est3_t,est4_t)
+% 4. The maximum of all the eight estimates is presented
 
 A=randn(2,2); B=randn(2,1); C=randn(1,2); D=randn; %random blocks
 G=[A B; C D];             % global matrix
