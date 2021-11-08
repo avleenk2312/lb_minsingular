@@ -88,7 +88,7 @@ elseif and(r2==n,r1<n)   % B is non-singular
         d=bm;
 elseif r1+r2==2*n        % both A and B are non-singular  
         d=sqrt(am^2+bm^2);
-else                     % both A and B singular and r=0
+else                     % both A and B are singular and r=0, i.e., all angles are either 0 or π/2
         d=min(am,bm);
 end 
 end
