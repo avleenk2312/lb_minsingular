@@ -77,7 +77,7 @@ r=sum(s<1-eps & s > eps); % size(s)
 am=minsvd(A);
 bm=minsvd(B);
 if r>0 
-    s2=(1-(s(k+1))^2);                                              % 1-cos(Θ_k+1)^2 
+    s2=(1-(s(k+1))^2);                                              % 1-cos(Θ_k+1)^2 = sin(Θ_k+1)^2 
     d=sqrt(0.5*(am^2+bm^2-(0.5*(am+bm)*sqrt((am+bm)^2-4*am*bm*s2))...
         -(0.5*abs(am-bm)*sqrt((am-bm)^2+4*am*bm*s2))));
     return
