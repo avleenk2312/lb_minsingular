@@ -1,7 +1,8 @@
 # lb_minsingular
 
 
-This directory contains some supplementay materials for the article:
+This directory is maintained by Avleen Kaur and S.H. Lui.
+It contains some supplementay materials for the article:
 New lower bounds on the minimum singular value of a matrix
 
 It contains the following:
