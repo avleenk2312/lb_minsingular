@@ -42,24 +42,24 @@ D=G(in1+1:end,in2+1:end);
 % exact min singular value of G
 exact=min(svd(G));        
 
-%For Theorem 3.8
+%For Theorem 3.9
 cv=cc([A B]',[C D]');     % sqrt(1-cosΘ)
 c1=cc(A,B);               
 c2=cc(C,D);
 a=minsvd(A); b=minsvd(B); c=minsvd(C); d=minsvd(D);                         %minimum positive singular values of the blocks
 
-% Estimates given by Theorem 3.8
+% Estimates given by Theorem 3.9
 est1=cv*min(min(svd([A,B])),min(svd([C,D])));
 est2=Psi([A,B]',[C,D]');
 est3=cv*min(max(c1*min(a,b),Psi(A,B)), max(c2*min(c,d), Psi(C,D)));
 est4=cv*min(c1,c2)*min([a,b,c,d]);
 
-% For Corollary 3.9
+% For Corollary 3.10
 cv_t=cc([A ;C],[B; D]);
 c1_t=cc(A',C'); 
 c2_t=cc(B',D');
 
-% Estimates given by Corollary 3.9
+% Estimates given by Corollary 3.10
 est1_t=cv_t*min(minsvd([A;C]),minsvd([B;D]));
 est2_t=Psi([A;C],[B;D]);
 est3_t=cv_t*min(max(c1_t*min(a,c),Psi(A',C')), max(c2_t*min(b,d), Psi(B',D')));
