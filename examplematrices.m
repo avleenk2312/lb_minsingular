@@ -1,4 +1,4 @@
-% Estimates for the minimum singular value of non-singular matrices A-K and U considered in Exmaple 3, 6 and 7 of the
+% Estimates for the minimum singular value of non-singular matrices A-K and U considered in Examples 3, 6 and 7 of the
 % article: "New lower bounds for the minimum singular value of a matrix"
 % Please "uncomment" the matrix you would like to check
 % By default the matrix "U" from "Example 3" of the article is uncommented
