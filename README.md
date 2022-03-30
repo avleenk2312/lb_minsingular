@@ -3,7 +3,7 @@
 
 >This directory is maintained by Avleen Kaur and S.H. Lui. 
 
-## It contains some supplementary materials for the article: 
+#### It contains some supplementary materials for the article: 
 #### New lower bounds on the minimum singular value of a matrix
 
 It contains the following:
