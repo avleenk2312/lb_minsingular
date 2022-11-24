@@ -50,8 +50,8 @@ e=[est1,est2,est3,est4,est1_t,est2_t,est3_t,est4_t];
 m=max(e);
 be(iter)=m;
 formula=find(e==m);
-str=["(3.27a): first row formula";"(3.27b): second row formula";"(3.27c): third row formula";"(3.28): fourth row formula";...
-      "(3.31a): first column formula";"(3.31b): second column formula";"third column formula";"fourth column formula"];
+str=["(3.25a): first row formula";"(3.25b): second row formula";"(3.25c): third row formula";"(3.26): fourth row formula";...
+      "(3.29a): first column formula";"(3.29b): second column formula";"(3.29c): third column formula";"(3.30) fourth column formula"];
 fprintf("The best estimate is: %f, for the exact minimum singular value: %f, given by the following formula(s):\n",m,exact)
 fprintf("\t\t\t\t %s \n",str(formula))
 end
