@@ -10,3 +10,4 @@ It contains the following:
 2. **MATLAB code for lower bound minimum singular value of a 2x2 block matrix:** lb_minsblock.m
 3. **MATLAB code for Example 3,6,7:** examplematrices.m
 4. **MATLAB code for Example 5:** exampleparameter.m
+5. **MATLAB code for Example 9:** finite_diff.m
