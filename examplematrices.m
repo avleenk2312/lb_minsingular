@@ -67,8 +67,8 @@ est4_t=cv_t*min(c1_t,c2_t)*min([a,b,c,d]);
 e=[est1,est2,est3,est4,est1_t,est2_t,est3_t,est4_t];
 m=max(e);
 formula=find(e==m);
-str=["(3.27a): first row formula";"(3.27b): second row formula";"(3.27c): third row formula";"(3.28): fourth row formula";...
-      "(3.31a): first column formula";"(3.31b): second column formula";"third column formula";"fourth column formula"];
+str=["(3.25a): first row formula";"(3.25b): second row formula";"(3.25c): third row formula";"(3.26): fourth row formula";...
+      "(3.29a): first column formula";"(3.29b): second column formula";"(3.29c): third column formula";"(3.30): fourth column formula"];
 fprintf("Current partition number is %d, with size of the leading block as: %d x %d\n",i,in1,in2);
 fprintf("The best estimate is: %f, for the exact minimum singular value: %f, given by the following formula(s):\n",m,exact)
 fprintf("\t\t\t\t %s \n",str(formula))
