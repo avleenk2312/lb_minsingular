@@ -1,6 +1,8 @@
 
 %Page 34 for LeVeque
-%need to update the new equation numbers
+%This is the code for Example 9 on Page 23
+%It plots the exact minimum singular value versus the "best approximation" for minimum singular values
+%Best means, the maximum lower bounds out of 3.25-(a),-(b),-(c), 3.26, 3.29-(a),-(b),-(c), 3.30
 
 
 clear vars
