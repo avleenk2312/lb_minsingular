@@ -11,3 +11,4 @@ It contains the following:
 3. **MATLAB code for Example 3,6,7:** examplematrices.m
 4. **MATLAB code for Example 5:** exampleparameter.m
 5. **MATLAB code for Example 9:** example_finite_diff.m
+6. **MATLAB code for Section 3 of supplementary file:** adv_mineig.m
